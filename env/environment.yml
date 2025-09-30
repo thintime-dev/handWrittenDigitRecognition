@@ -1,0 +1,18 @@
+name: mnist-cnn-tf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=23
+  - numpy>=1.24
+  - pillow>=10
+  - matplotlib>=3.7
+  - scikit-image>=0.22
+  - pip:
+      - tensorflow==2.15.0
+      # 如果有 GPU(NVIDIA + CUDA) 可安装下面tf版本或者与你 CUDA/驱动相匹配的版本
+      # tensorflow[and-cuda]=2.15.0
+      - tensorflow-io-gcs-filesystem==0.34.0
+      - opencv-python-headless>=4.9
+
