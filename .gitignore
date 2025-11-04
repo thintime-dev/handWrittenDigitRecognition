@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+
+# Conda build artifacts
+.conda/
+.mamba/
+
+# IDE / editor
+.idea/
+.vscode/
+*.code-workspace
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs / coverage / reports
+*.log
+logs/
+.pytest_cache/
+.coverage
+coverage.xml
+
+# TensorFlow / training artifacts
+outputs/logs/
+outputs/models/
+outputs/predictions*.csv
+
+# Checkpoints / temp
+*.ckpt
+*.h5
+*.keras
+*.npz
+
+# Notebook checkpoints
+.ipynb_checkpoints/
