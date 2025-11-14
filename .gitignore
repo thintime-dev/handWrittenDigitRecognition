@@ -42,3 +42,6 @@ outputs/predictions*.csv
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+
+.obsidian/
+*.pdf
