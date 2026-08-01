@@ -30,9 +30,6 @@ python -c "import tensorflow as tf; print(tf.__version__); print('GPU:', tf.conf
 
 
 ```
-若成功输出版本号且列出 GPU，则说明 TensorFlow 工作正常；否则将自动落到 CPU。
-
-## 项目结构
 .
 ├── env/
 │   └── environment.yml        # Conda 环境定义
